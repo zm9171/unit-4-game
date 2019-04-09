@@ -4,9 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <title>Crystal Collectors</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <div class="row">
+        <div class="Title">
+            <h1>
+                Crystal Collector!
+            </h1>
+        </div>
+    </div>
     
+    <div class="row">
+        <div class="Directions">
+            <p>You will be given a random number at the start of the game.</p>
+            <p>There are four crystals below. By clicking on the crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game, the game will change the values of each crystal.</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="NumberGoal">
+        </div>
+        <div class="wins">
+            <p>Wins: </p>
+            <p>Losses: </p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="Crystals">
+            <img class= "crystal" id="chaos" src="assets/images/abstract.jpg">
+            <img class= "crystal" id="disco" src="assets/images/cartoon.jpg">
+            <img class= "crystal" id="vaporwave" src="assets/images/crystalpepsi.jpg">
+            <img class= "crystal" id="abstract" src="assets/images/underwater.jpg">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="totalScore">
+            <p>Your total score is: </p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src= "Unit-4-game/assets/javascript/game.js"></script>
 </body>
 </html>
+
